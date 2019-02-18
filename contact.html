@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <link rel="icon" 
+    type="image/png" 
+    href="https://data.whicdn.com/images/255431133/large.jpg">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+
+</head>
+<body>
+  
+<title> MyWebPortfolio </title>
+  
+
+<header>
+    <ul class="main-nav">
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="overmij.html"> OVER MIJ </a></li>
+            <li><a href="projecten.html"> PROJECTEN </a></li>
+            <li class ="active"><a href="contact.html"> CONTACT </a></a></li>
+
+        </ul>
+    </header>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="germany">Germany</option>
+            <option value="the netherlands">the Netherlands</option>
+            <option value="spain">Spain</option>
+            <option value="portugal">Portugal</option>
+            <option value="austria">Austria</option>
+            <option value="russia">Russia</option>
+            <option value="china">China</option>
+            <option value="japan">Japan</option>
+            <option value="south africa">South Africa</option>
+
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+</body>
+</html>
